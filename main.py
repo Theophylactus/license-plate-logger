@@ -20,7 +20,7 @@ def logPlate(plate, confidence):
 	print(message, end = '')
 	
 	dirname = os.path.dirname(__file__)
-	filename = os.path.join(dirname, '/matriculas.txt')
+	filename = os.path.join(dirname, 'matriculas.txt')
 
 	with open(filename, 'a') as platesLog:
 		platesLog.write(message)
