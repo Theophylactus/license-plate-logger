@@ -9,7 +9,7 @@ from openalpr import Alpr
 from datetime import datetime
 
 
-url = 'https://api.telegram.org/bot5979502962:AAEUtZ6_Js37Ch-YaYiB-fycUr18TqgqFfs/sendMessage?chat_id=5604169780&text='
+url = 'https://api.telegram.org/bot<token>/sendMessage?chat_id=<id>&text='
 
 # Used to send an HTTP request without waiting for its result
 def sendPlate(plate):
